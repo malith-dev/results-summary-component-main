@@ -74,7 +74,9 @@ body{
 }
 
 
-
+.card-right h2{
+    opacity: 70%;
+}
 
 .card-right ul{
     list-style-type: none;
@@ -152,6 +154,11 @@ body{
     cursor: pointer;
     background-image: none;
     background-color: hsl(224, 30%, 27%);
+}
+
+.attribution a{
+    text-align: center;
+    color: blue;
 }
 
 
