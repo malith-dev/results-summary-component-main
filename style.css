@@ -34,7 +34,6 @@ body{
     color: #fff;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
 }
 .card-left .circle{
@@ -163,8 +162,25 @@ body{
 
 
 
+@media (max-width:680px){
 
+    .container{
+        align-items: start;
+    }
+    .card{
+        display: block;
+        
+    }
 
+    .card-left, .card-right{
+        width: 100%;
+    }
+
+    .card-left{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
 
 
 
