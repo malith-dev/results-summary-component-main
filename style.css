@@ -94,22 +94,26 @@ body{
     border-radius: 10px;
     background-color: aliceblue;
 }
+.card-right li .title{
+    display: flex;
+    gap: 10px;
+}
 
-.card-right li #title{
+.card-right li .title p{
     font-size: 1em;
     font-weight: 700;
 }
 
-.card-right li:nth-child(1) #title{
+.card-right li:nth-child(1) .title p{
     color:hsl(0, 100%, 67%) ;
 }
-.card-right li:nth-child(2) #title{
+.card-right li:nth-child(2) .title p{
     color:hsl(39, 100%, 56%) ;
 }
-.card-right li:nth-child(3) #title{
+.card-right li:nth-child(3) .title p{
     color:hsl(166, 100%, 37%) ;
 }
-.card-right li:nth-child(4) #title{
+.card-right li:nth-child(4) .title p{
     color:hsl(234, 85%, 45%) ;
 }
 
@@ -128,7 +132,6 @@ body{
 }
 
 .btn{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items:auto;
@@ -142,11 +145,16 @@ body{
     border: none;
     border-radius: 40px;
     color: #fff;
+    font-size: 1em;
 }
 
 .btn button:hover{
     cursor: pointer;
+    background-image: none;
+    background-color: hsl(224, 30%, 27%);
 }
+
+
 
 
 
